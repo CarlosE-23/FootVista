@@ -1,149 +1,154 @@
 import {
-  facebook,
-  instagram,
-  shieldTick,
-  support,
-  truckFast,
-  twitter,
-} from "../assets/icons";
-import {
-  bigShoe1,
-  bigShoe2,
-  bigShoe3,
-  customer1,
-  customer2,
-  shoe4,
-  shoe5,
-  shoe6,
-  shoe7,
-  thumbnailShoe1,
-  thumbnailShoe2,
-  thumbnailShoe3,
+    cap1,
+    cap2,
+    cap3,
+    cap5,
+    cap6,
+    cap7,
+    cap8,
+    customer1,
+    customer2,
 } from "../assets/images";
 
 export const navLinks = [
-  { href: "#home", label: "Home" },
-  { href: "#about-us", label: "About Us" },
-  { href: "#products", label: "Products" },
-  { href: "#contact-us", label: "Contact Us" },
+    { href: "#home", label: "Inicio" },
+    { href: "#about-us", label: "Nosotros" },
+    { href: "#products", label: "Productos" },
+    { href: "#contact-us", label: "Contacto" },
 ];
 
 export const shoes = [
-  {
-    thumbnail: thumbnailShoe1,
-    bigShoe: bigShoe1,
-  },
-  {
-    thumbnail: thumbnailShoe2,
-    bigShoe: bigShoe2,
-  },
-  {
-    thumbnail: thumbnailShoe3,
-    bigShoe: bigShoe3,
-  },
+    {
+        thumbnail: cap1,
+        bigShoe: cap1,
+    },
+    {
+        thumbnail: cap2,
+        bigShoe: cap2,
+    },
+    {
+        thumbnail: cap3,
+        bigShoe: cap3,
+    },
 ];
 
 export const statistics = [
-  { value: "1k+", label: "Brands" },
-  { value: "500+", label: "Shops" },
-  { value: "250k+", label: "Customers" },
+    { value: "50+", label: "Modelos Disponibles" },
+    { value: "100%", label: "Calidad Premium" },
+    { value: "500+", label: "Clientes Satisfechos" },
 ];
 
 export const products = [
-  {
-    imgURL: shoe4,
-    name: "Nike Air Jordan-01",
-    price: "$200.20",
-  },
-  {
-    imgURL: shoe5,
-    name: "Nike Air Jordan-10",
-    price: "$210.20",
-  },
-  {
-    imgURL: shoe6,
-    name: "Nike Air Jordan-100",
-    price: "$220.20",
-  },
-  {
-    imgURL: shoe7,
-    name: "Nike Air Jordan-001",
-    price: "$230.20",
-  },
+    {
+        imgURL: cap8,
+        name: "Gorra Snapback Clásica",
+        price: "$15.00",
+    },
+    {
+        imgURL: cap5,
+        name: "Gorra Trucker Premium",
+        price: "$18.00",
+    },
+    {
+        imgURL: cap6,
+        name: "Gorra Dad Hat Vintage",
+        price: "$16.00",
+    },
+    {
+        imgURL: cap7,
+        name: "Gorra Flex Fit Pro",
+        price: "$20.00",
+    },
 ];
 
 export const services = [
-  {
-    imgURL: truckFast,
-    label: "Free shipping",
-    subtext: "Enjoy seamless shopping with our complimentary shipping service.",
-  },
-  {
-    imgURL: shieldTick,
-    label: "Secure Payment",
-    subtext:
-      "Experience worry-free transactions with our secure payment options.",
-  },
-  {
-    imgURL: support,
-    label: "Love to help you",
-    subtext: "Our dedicated team is here to assist you every step of the way.",
-  },
+    {
+        icon: "Truck",
+        label: "Envíos a Todo el País",
+        subtext:
+            "Llevamos tu gorra favorita hasta la puerta de tu casa a todo Venezuela.",
+    },
+    {
+        icon: "ShieldCheck",
+        label: "Calidad Garantizada",
+        subtext:
+            "Cada gorra pasa por un control de calidad riguroso para asegurar tu satisfacción.",
+    },
+    {
+        icon: "HeadphonesIcon",
+        label: "Atención Personalizada",
+        subtext:
+            "Nuestro equipo está disponible para asesorarte y encontrar la gorra perfecta.",
+    },
 ];
 
 export const reviews = [
-  {
-    imgURL: customer1,
-    customerName: "Morich Brown",
-    rating: 4.5,
-    feedback:
-      "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
-  },
-  {
-    imgURL: customer2,
-    customerName: "Lota Mongeskar",
-    rating: 4.5,
-    feedback:
-      "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
-  },
+    {
+        imgURL: customer1,
+        customerName: "Andrés Morales",
+        rating: 5,
+        feedback:
+            "¡Increíble calidad! La gorra llegó perfecta, exactamente como la vi en el perfil. Sin duda seguiré comprando en Good Style.",
+    },
+    {
+        imgURL: customer2,
+        customerName: "María González",
+        rating: 5,
+        feedback:
+            "La variedad es impresionante y la atención fue excelente. Mi gorra llegó rápido y en perfectas condiciones. Totalmente recomendado.",
+    },
 ];
 
 export const footerLinks = [
-  {
-    title: "Products",
-    links: [
-      { name: "Air Force 1", link: "/" },
-      { name: "Air Max 1", link: "/" },
-      { name: "Air Jordan 1", link: "/" },
-      { name: "Air Force 2", link: "/" },
-      { name: "Nike Waffle Racer", link: "/" },
-      { name: "Nike Cortez", link: "/" },
-    ],
-  },
-  {
-    title: "Help",
-    links: [
-      { name: "About us", link: "/" },
-      { name: "FAQs", link: "/" },
-      { name: "How it works", link: "/" },
-      { name: "Privacy policy", link: "/" },
-      { name: "Payment policy", link: "/" },
-    ],
-  },
-  {
-    title: "Get in touch",
-    links: [
-      {
-        name: "carlosguanipa23@gmail.com",
-        link: "mailto:carlosguanipa23@gmail.com",
-      },
-      { name: "+58 4126684020", link: "tel:+58 4126684020" },
-    ],
-  },
+    {
+        title: "Productos",
+        links: [
+            { name: "Snapback", link: "/" },
+            { name: "Trucker", link: "/" },
+            { name: "Dad Hat", link: "/" },
+            { name: "Flex Fit", link: "/" },
+            { name: "Edición Limitada", link: "/" },
+            { name: "Colección Nueva", link: "/" },
+        ],
+    },
+    {
+        title: "Ayuda",
+        links: [
+            { name: "Sobre Nosotros", link: "/" },
+            { name: "Preguntas Frecuentes", link: "/" },
+            { name: "Cómo Comprar", link: "/" },
+            { name: "Política de Privacidad", link: "/" },
+            { name: "Política de Envíos", link: "/" },
+        ],
+    },
+    {
+        title: "Contáctanos",
+        links: [
+            {
+                name: "WhatsApp: +58 479 083 11",
+                link: "https://wa.me/5847908311",
+            },
+            {
+                name: "Instagram: @_goodstyle.vzz",
+                link: "https://instagram.com/_goodstyle.vzz",
+            },
+            {
+                name: "TikTok: @_goodstyle",
+                link: "https://tiktok.com/@_goodstyle",
+            },
+        ],
+    },
 ];
 
 export const socialMedia = [
-  { src: facebook, alt: "facebook logo" },
-  { src: twitter, alt: "twitter logo" },
-  { src: instagram, alt: "instagram logo" },
+    {
+        icon: "Instagram",
+        alt: "Instagram Good Style",
+        link: "https://instagram.com/_goodstyle.vzz",
+    },
+    {
+        icon: "MessageCircle",
+        alt: "WhatsApp Good Style",
+        link: "https://wa.me/5847908311",
+    },
 ];
